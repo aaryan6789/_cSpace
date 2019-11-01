@@ -3,7 +3,6 @@
 #include "helper.h"
 
 static int y = 10;
-
 void foo()
 {
     static int x = 5;		// Local Static Variable
@@ -60,7 +59,7 @@ int main(){
  * Global static:
  * 1. If a global variable is static,
  * the scope or visibility is within that file only,
- * even using extern in another file wonï¿½t work. It gives linkage error.
+ * even using extern in another file won’t work. It gives linkage error.
  * 2. Global static variable is a variable defined outside of any blocks and
  *  is accessible in all blocks in the same file where it is defined & is persistent.
  *
