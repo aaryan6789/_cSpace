@@ -1,0 +1,1 @@
+xalloc.o: ../xalloc.c
